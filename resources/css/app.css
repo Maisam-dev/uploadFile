@@ -1,0 +1,34 @@
+.vogtitle {
+    background-color: #06845b;
+    margin-bottom: 0;
+}
+.green{
+    background-color: #06845b ;
+}
+
+table {
+    width: 100%; /* Tabelle erstreckt sich über die gesamte Fensterbreite */
+    table-layout: fixed; /* Schaltet die automatische Größenanpassung der Zellen aus */
+}
+
+td,th {
+    white-space: normal; /* erlaubt, dass Text in Zellen umgebrochen wird */
+    overflow: hidden; /* Versteckt Text, der die Zellenbreite überschreitet */
+    text-overflow: ellipsis; /* Fügt einen Punkt hinzu, um Text zu kennzeichnen, der abgeschnitten wurde */
+    word-wrap: break-word;
+}
+ td, th, thead{
+    padding: 20px;
+    border:1px solid #06845b;
+    border-collapse: collapse;
+}
+ .link{
+     min-width:250px !important; /* warum funktioniert es nicht ?*/
+ }
+.form-group label{
+    min-width:200px;
+}
+
+.form-group input{
+    min-width:200px;
+}
