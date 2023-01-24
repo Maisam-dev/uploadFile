@@ -4,7 +4,9 @@
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="./resources/css/app.css"/>
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+
 @endsection
 
 @section('foot')
